@@ -1,0 +1,40 @@
+.cookie-popup-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  z-index: 999;
+}
+
+.cookie-popup {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.cookie-content {
+  text-align: center;
+}
+
+.actions button {
+  margin: 0 10px;
+}
+
+.actions button:first-child {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.actions button:last-child {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}

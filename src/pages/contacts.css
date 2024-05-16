@@ -1,0 +1,13 @@
+.row {
+  justify-content: center;
+}
+
+.fitness-contact-info {
+  position: relative;
+  bottom: 130px;
+  left: 0;
+  background-color: #4761ff;
+  padding: 10px;
+  width: 50%;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}

@@ -1,0 +1,18 @@
+/* .post-content-body {
+  overflow: hidden; 
+} */
+
+.post-content-body img {
+  float: left;
+  margin: 0px 30px 20px 0px;
+  max-width: 550px;
+}
+
+.paragraph {
+  margin-bottom: 20px; /* Отступ между абзацами */
+}
+
+.text-post img {
+  float: left;
+  margin-right: 15px; /* adjust margin as needed */
+}

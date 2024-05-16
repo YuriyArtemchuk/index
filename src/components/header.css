@@ -1,0 +1,33 @@
+.nav-block {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li .btn-primary {
+  margin: 2px 0px 0px 0px;
+}
+.nav-block li input {
+  border: 2px solid grey;
+  border-radius: 4px;
+  margin: 10px 20px 0px 0px;
+}
+.nav-block li input:hover {
+  transform: scale(1.03, 1.03);
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.searchLabel {
+  color: grey;
+  margin-right: 5px;
+  text-shadow: 0.5px 0.5px 1px grey;
+  &:hover {
+    transform: scale(1.03, 1.03);
+    color: rgb(86, 82, 82);
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,93 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.posts-entry .blog-entry-search-item {
+  margin-bottom: 30px;
+}
+.blog-entry-search-item a {
+  color: black;
+}
+.posts-entry .blog-entry-search-item .img-link {
+  width: 280px;
+  border-radius: 0;
+}
+.posts-entry .blog-entry-search-item .img-link img {
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+}
+
+.col-md-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.custom-pagination span,
+.custom-pagination button {
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 3px;
+  margin-right: 3px;
+  padding: 0px;
+}
+
+.custom-pagination button {
+  background: #214252;
+  color: #fff;
+}
+
+.custom-pagination button:hover {
+  background-color: green;
+}
+
+.page-numbers {
+  &.current {
+    background-color: green;
+  }
+}
+
+.prev,
+.next {
+  background-color: #f6f8fa;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 3px;
+  padding: 0;
+  margin: 0px 15px 0px 12px;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  height: 100%; /* Высота 100% для центрирования по вертикали */
+}
